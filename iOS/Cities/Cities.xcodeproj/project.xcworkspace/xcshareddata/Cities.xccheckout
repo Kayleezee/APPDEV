@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6BDB3131-20B7-4BB3-8155-CA7978F6B6B3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BD02DC9F6081ED78BF092BAFD07D3ACC0F223B94</key>
+		<string>https://github.com/Kayleezee/APPDEV.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/Cities/Cities.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BD02DC9F6081ED78BF092BAFD07D3ACC0F223B94</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Kayleezee/APPDEV.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BD02DC9F6081ED78BF092BAFD07D3ACC0F223B94</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BD02DC9F6081ED78BF092BAFD07D3ACC0F223B94</string>
+			<key>IDESourceControlWCCName</key>
+			<string>APPDEV</string>
+		</dict>
+	</array>
+</dict>
+</plist>
