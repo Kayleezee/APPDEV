@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Cities View Controller-->
@@ -16,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ig-9f-oqX">
-                                <rect key="frame" x="193" y="285" width="215" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ig-9f-oqX">
+                                <rect key="frame" x="143" y="285" width="315" height="30"/>
                                 <state key="normal" title="City">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -27,6 +28,11 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6ig-9f-oqX" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="265" id="AK6-iU-fhV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6ig-9f-oqX" secondAttribute="trailing" constant="126" id="CLo-vK-HKf"/>
+                            <constraint firstItem="6ig-9f-oqX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="127" id="Jyk-IY-47x"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="cityButton" destination="6ig-9f-oqX" id="xCn-sA-qYD"/>
@@ -48,17 +54,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgZ-ut-iLD">
-                                <rect key="frame" x="279" y="112" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oD8-lk-TEd">
-                                <rect key="frame" x="43" y="167" width="515" height="396"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HVX-E2-sgK">
-                                <rect key="frame" x="512" y="28" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HVX-E2-sgK">
+                                <rect key="frame" x="523" y="28" width="35" height="30"/>
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -66,8 +63,30 @@
                                     <segue destination="WG4-cL-umh" kind="unwind" unwindAction="unwindToCities:" id="DtY-41-SLd"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oD8-lk-TEd">
+                                <rect key="frame" x="16" y="167" width="568" height="413"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="413" id="aQH-nU-wPr"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wgZ-ut-iLD">
+                                <rect key="frame" x="279" y="138" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6il-dv-vcJ" firstAttribute="top" secondItem="oD8-lk-TEd" secondAttribute="bottom" constant="20" id="98P-Rs-1b4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="HVX-E2-sgK" secondAttribute="trailing" constant="26" id="CA6-7g-iO3"/>
+                            <constraint firstItem="oD8-lk-TEd" firstAttribute="trailing" secondItem="Rij-zc-nag" secondAttribute="trailingMargin" id="EJc-zs-enn"/>
+                            <constraint firstItem="HVX-E2-sgK" firstAttribute="top" secondItem="iz9-iL-guc" secondAttribute="bottom" constant="8" id="Tyv-vt-651"/>
+                            <constraint firstItem="wgZ-ut-iLD" firstAttribute="top" secondItem="iz9-iL-guc" secondAttribute="bottom" constant="118" id="n5v-5H-8nT"/>
+                            <constraint firstItem="oD8-lk-TEd" firstAttribute="leading" secondItem="Rij-zc-nag" secondAttribute="leadingMargin" id="pEB-2f-GyY"/>
+                            <constraint firstItem="wgZ-ut-iLD" firstAttribute="top" secondItem="iz9-iL-guc" secondAttribute="bottom" constant="118" id="yFA-5K-PYL"/>
+                            <constraint firstAttribute="centerX" secondItem="wgZ-ut-iLD" secondAttribute="centerX" constant="-0.5" id="zlS-3l-gw4"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Stt-QI-xTo"/>
                     <connections>

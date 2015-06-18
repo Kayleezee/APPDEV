@@ -14,11 +14,11 @@
 		<string>https://github.com/Kayleezee/APPDEV.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iOS/Cities/Cities.xcodeproj/project.xcworkspace</string>
+	<string>iOS/Uni Heidelberg/Cities/Cities.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BD02DC9F6081ED78BF092BAFD07D3ACC0F223B94</key>
-		<string>../../../..</string>
+		<string>../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Kayleezee/APPDEV.git</string>
