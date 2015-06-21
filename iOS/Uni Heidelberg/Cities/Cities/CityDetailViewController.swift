@@ -8,15 +8,14 @@
 
 import UIKit
 
-class CityDetailsViewController: UIViewController {
+class CityDetailViewController: UIViewController {
     
     var city: City?
     
-    @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var imageView: UIImageView!
     
     override func viewWillAppear(animated: Bool) {
-        self.nameLabel.text = city?.name
+        self.title = city?.name
         self.imageView.image = city?.image
     }
 }
