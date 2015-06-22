@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>6BDB3131-20B7-4BB3-8155-CA7978F6B6B3</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Cities</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BD02DC9F6081ED78BF092BAFD07D3ACC0F223B94</key>
 		<string>https://github.com/Kayleezee/APPDEV.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>iOS/Uni Heidelberg/Cities/Cities.xcodeproj/project.xcworkspace</string>
+	<string>iOS/Uni Heidelberg/Cities/Cities.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BD02DC9F6081ED78BF092BAFD07D3ACC0F223B94</key>

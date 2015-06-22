@@ -19,7 +19,7 @@ class CitiesViewController: UITableViewController {
     }
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let city = cities![indexPath.row]
-        let cell = tableView.dequeueReusableCellWithIdentifier("cityCell", forIndexPath: indexPath) as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("cityCell", forIndexPath: indexPath) as UITableViewCell
         cell.textLabel?.text = city.name
         cell.imageView?.image = city.image
         return cell
