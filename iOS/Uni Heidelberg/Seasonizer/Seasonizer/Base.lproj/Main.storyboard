@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1077" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="eAa-3f-YYr">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="d7s-zk-ZRc">
+            <objects>
+                <navigationController toolbarHidden="NO" id="eAa-3f-YYr" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dvY-UF-CdJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="OJU-FH-2ug">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="w1y-LQ-ImX" kind="relationship" relationship="rootViewController" id="jB6-3h-hcc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uk1-fM-uu6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-644" y="481"/>
+        </scene>
+        <!--Seasonizer-->
+        <scene sceneID="VND-Ta-lkY">
+            <objects>
+                <viewController id="w1y-LQ-ImX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xmf-g5-4PV"/>
+                        <viewControllerLayoutGuide type="bottom" id="t69-e8-Hkx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DNb-8j-GkH">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ie1-Cw-Meo">
+                                <rect key="frame" x="0.0" y="64" width="600" height="492"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem systemItem="trash" id="ZRH-8F-TG2"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="zJJ-9S-W8h"/>
+                        <barButtonItem systemItem="camera" id="IAB-0l-aZq"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="GjF-At-Yhg"/>
+                        <barButtonItem systemItem="add" id="YRL-Nu-e8g"/>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" title="Seasonizer" id="bFr-kK-i1b">
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="v2L-JV-Unr"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LcR-yB-Srf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141" y="481"/>
+        </scene>
+    </scenes>
+</document>
